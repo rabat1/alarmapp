@@ -1,10 +1,11 @@
 import { View, Text } from 'react-native';
 import React from 'react';
 import Login from './Login';
+import Home from './Home';
 const App = () => {
   return (
     <View>
-      <Login />
+      <Home />
     </View>
   )
 }
